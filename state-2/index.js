@@ -18,7 +18,11 @@ incBtn.addEventListener("click", () => {
 });
 
 decBtn.addEventListener("click", () => {
-    count = count - 1
-    render();
-    console.log("subtract");
+    if (count === 0) {
+        return;
+    } else {
+        count = count - 1;
+        render();
+        console.log("subtract");
+    }
 })
