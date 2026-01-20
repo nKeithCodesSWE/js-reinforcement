@@ -13,6 +13,43 @@ body {
     background-color: #f0f0f0;
     gap: 20px;
 }
+
+p {
+   border: 2px solid #ccc;
+    padding: 8px 18px;
+    border-radius: 25rem;
+    font-size: 16px; 
+    color: #A4ABB6;
+}
+
+div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    border: 2px solid #ccc;
+    padding: 10px;
+    border-radius: 25rem;
+    background-color: #f7f7f7;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 25rem;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+button:hover {
+    background-color: #0056b3;
+}
+
 .active {
     color: green;
+    border: 2px solid green;
+    padding: 8px 18px;
+    border-radius: 25rem;
 }
