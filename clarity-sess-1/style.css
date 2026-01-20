@@ -1,0 +1,22 @@
+.box {
+    padding: 30px;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.idle {
+    background-color: lightgray;
+    color: black;
+}
+
+.active {
+    background-color: lightgreen;
+    color: darkgreen;
+}
+
+.error {
+    background-color: pink;
+    color: darkred;
+}
