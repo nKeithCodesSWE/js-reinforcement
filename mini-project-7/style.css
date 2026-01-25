@@ -1,0 +1,97 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff82;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+/* Container */
+.container {
+    background-color: #fff;
+    padding: 50px 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+p {
+    font-size: 14px;
+    margin-bottom: 25px;
+    color: #9ca3af;
+}
+
+/* Input Field */
+input[type='text'] {
+    padding: 10px;
+    border: 2px solid #b8b8b8;
+    border-radius: 8px;
+    width: 250px;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+input[type='text']:focus {
+    border-color: #4f46e5;
+    outline: none;
+}
+/* Output Area */
+#output-area {
+    margin-top: 10px;
+    max-height: 200px;
+    overflow-y: auto;
+    width: 100%;
+    margin-bottom: 1px;
+}
+
+#output-area li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+/* Buttons */
+#add-todo {
+    padding: 12px 15px;
+    border: none;
+    border-radius: 8px;
+    background-color: #4f46e5;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+#add-todo:hover {
+    background-color: #4338ca;
+}
+
+button {
+    all: unset;
+    cursor: pointer;
+    color: #e3dfdf;
+    font-size: 12px;
+}
+
+button:hover {
+    color: #ff0000;
+}   
